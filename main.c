@@ -539,7 +539,7 @@ int prepare_data(char* data){
     //printf("\n. [ES_IS]: %s\n[Temperature]: %d\n[Humidity]: %d\n[Wind direction]: %d\n[Wind intensity]: %d\n[Rain height]: %d\n",
     //        ES_ID, temperature_value, humidity_value, wind_direction_value, wind_intensity_value, rain_height_value);
 
-    sprintf(data, "%d;%d;%d;%d;%d}", 
+    sprintf(data, "%d;%d;%d;%d;%d", 
             temperature_value, humidity_value, wind_direction_value, wind_intensity_value, rain_height_value);
     
     //debug 
@@ -547,20 +547,6 @@ int prepare_data(char* data){
 
     return 0;
 }
-
-/*static int cmd_set_environemtal_station_ID(int argc, char**argv){
-    if (argc < 1){
-        set_ES_id_usage();
-        return 1;
-    }
-
-    ES_ID = argv[1];
-    
-    //debug
-    printf("Environmental station ID: %s\n", ES_ID);
-
-    return 0;
-}*/
 
 static int cmd_publish_environmental_station_data(int argc, char** argv){
             
@@ -684,7 +670,7 @@ int main(void)
 {
     semtech_loramac_init(&loramac);
 
-    puts("Evironmental Station simulator.\nPlease set the ES id with the command 'set_ES_id, then establish the LoRa connection. Now you're ready to publish data!\n");
+    puts("Evironmental Station simulator.\n");
     char line_buf[SHELL_DEFAULT_BUFSIZE];
     shell_run(shell_commands, line_buf, SHELL_DEFAULT_BUFSIZE);
 }
