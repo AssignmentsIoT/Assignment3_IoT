@@ -25,8 +25,11 @@ I suggest you complete the following tutorials to familiarize with the technolog
 Take also a close look at this tutorial: https://www.iot-lab.info/tutorials/riot-ttn/ , this assignment is based on it.<br/>
 As The Things Network is used as LoRaWAN network server, an account on that platform is also needed.<br/>
 ## Conclusion
-To find more information on the main concepts, please take a look at the PDF in this repository.<br/>
-A complete guide on how to set everything up is provided on Hackster.io: https://www.hackster.io/silvia-del-piano/environmental-station-monitoring-with-lorawan-and-iot-lab-d9b334<br/>
-To see everything up and running check out this video: https://www.youtube.com/watch?v=6Qp2TJKEdic&list=PL48Vw1VOWyOlHXXhDsXb-AHYS89vMOo4g&index=4&t=0s<br/>
+To find more information on the main concepts, please take a look at the [PDF report](https://github.com/AssignmentsIoT/Assignment3_IoT/blob/master/Environmental%20Station%20Monitoring%20System-2.pdf) in this repository.<br/>   
+
+A complete **guide** on how to set everything up is provided **on Hackster.io**: https://www.hackster.io/silvia-del-piano/environmental-station-monitoring-with-lorawan-and-iot-lab-d9b334<br/>   
+
+To see everything up and running check out this **video**: https://www.youtube.com/watch?v=6Qp2TJKEdic&list=PL48Vw1VOWyOlHXXhDsXb-AHYS89vMOo4g&index=4&t=0s<br/>    
+
 I hope this has been useful and fun. If you have trouble, please contact me on LinkedIn: https://www.linkedin.com/in/silvia-del-piano-2482391a6?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BEdqyH9ACQj%2BSUgI39I%2FM1g%3D%3D<br/>
 Until next time, bye!
